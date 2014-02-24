@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libqmc.a  CMakeFiles/qmc.dir/ParticleSetPool.cpp.o CMakeFiles/qmc.dir/WaveFunctionPool.cpp.o CMakeFiles/qmc.dir/HamiltonianPool.cpp.o CMakeFiles/qmc.dir/InitMolecularSystem.cpp.o CMakeFiles/qmc.dir/QMCAppBase.cpp.o CMakeFiles/qmc.dir/QMCDriverFactory.cpp.o CMakeFiles/qmc.dir/QMCMain.cpp.o CMakeFiles/qmc.dir/CoupledMC.cpp.o
+/usr/bin/ranlib ../../lib/libqmc.a

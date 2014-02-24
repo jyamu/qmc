@@ -1,0 +1,628 @@
+The system is: Linux - 2.6.32-358.23.2.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc 
+Build flags: -march=amdfam10;-msse3;-malign-double;-fomit-frame-pointer;-ffast-math;-fopenmp;-O3;-Drestrict=__restrict__;-finline-limit=1000;-fstrict-aliasing;-funroll-all-loops;-Wno-deprecated;;-std=c99
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/ccs/home/zgu/proj/qmc/src/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx 
+Build flags: -march=amdfam10;-msse3;-malign-double;-fomit-frame-pointer;-ffast-math;-fopenmp;-O3;-Drestrict=__restrict__;-finline-limit=1000;-fstrict-aliasing;-funroll-all-loops;-Wno-deprecated;;-ftemplate-depth-60;-DADD_;-DINLINE_ALL=inline;-DDISABLE_TIMER=1;-DUSE_REAL_STRUCT_FACTOR
+Id flags: 
+
+The output was:
+0
+CMakeCXXCompilerId.cpp:67:58: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+CMakeCXXCompilerId.cpp:157:58: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/ccs/home/zgu/proj/qmc/src/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc       -fPIC CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc       -fPIC CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx        -fPIC CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx        -fPIC CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+The system is: Linux - 2.6.32-358.23.2.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc 
+Build flags: -march=amdfam10;-msse3;-malign-double;-fomit-frame-pointer;-ffast-math;-fopenmp;-O3;-Drestrict=__restrict__;-finline-limit=1000;-fstrict-aliasing;-funroll-all-loops;-Wno-deprecated;;-std=c99
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/ccs/home/zgu/proj/qmc/src/CMakeFiles/2.8.11.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx 
+Build flags: -march=amdfam10;-msse3;-malign-double;-fomit-frame-pointer;-ffast-math;-fopenmp;-O3;-Drestrict=__restrict__;-finline-limit=1000;-fstrict-aliasing;-funroll-all-loops;-Wno-deprecated;;-ftemplate-depth-60;-DADD_;-DINLINE_ALL=inline;-DDISABLE_TIMER=1;-DUSE_REAL_STRUCT_FACTOR
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/ccs/home/zgu/proj/qmc/src/CMakeFiles/2.8.11.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4081232233/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4081232233.dir/build.make CMakeFiles/cmTryCompileExec4081232233.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4081232233
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4081232233.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99    -v CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4081232233 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64  
+Using built-in specs.
+COLLECT_GCC=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc
+COLLECT_LTO_WRAPPER=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../gcc-4.7.1/configure --build=x86_64-redhat-linux --prefix=/ccs/compilers/gcc/rhel6-x86_64/4.7.1 --libdir=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-gmp-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-gmp-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpfr-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpfr-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpc-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpc-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64
+Thread model: posix
+gcc version 4.7.1 (GCC) 
+COMPILER_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/
+LIBRARY_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib/:/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../:/lib/:/usr/lib/
+Reading specs from /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-march=amdfam10' '-msse3' '-malign-double' '-fomit-frame-pointer' '-ffast-math' '-fopenmp' '-O3' '-D' 'restrict=__restrict__' '-finline-limit=1000' '-fstrict-aliasing' '-funroll-all-loops' '-Wno-deprecated' '-std=c99' '-v' '-o' 'cmTryCompileExec4081232233' '-rdynamic' '-pthread'
+ /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4081232233 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtbegin.o -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1 -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib -L/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../.. CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -rpath /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtfastmath.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec4081232233/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4081232233.dir/build.make CMakeFiles/cmTryCompileExec4081232233.dir/build]
+  ignore line: [gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp']
+  ignore line: [/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4081232233]
+  ignore line: [/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4081232233.dir/link.txt --verbose=1]
+  ignore line: [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99    -v CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4081232233 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../gcc-4.7.1/configure --build=x86_64-redhat-linux --prefix=/ccs/compilers/gcc/rhel6-x86_64/4.7.1 --libdir=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-gmp-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-gmp-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpfr-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpfr-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpc-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpc-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib/:/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=amdfam10' '-msse3' '-malign-double' '-fomit-frame-pointer' '-ffast-math' '-fopenmp' '-O3' '-D' 'restrict=__restrict__' '-finline-limit=1000' '-fstrict-aliasing' '-funroll-all-loops' '-Wno-deprecated' '-std=c99' '-v' '-o' 'cmTryCompileExec4081232233' '-rdynamic' '-pthread']
+  link line: [ /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4081232233 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtbegin.o -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1 -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib -L/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../.. CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -rpath /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtfastmath.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4081232233] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtbegin.o] ==> ignore
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1]
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc]
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib] ==> dir [/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib]
+    arg [-L/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib] ==> dir [/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib]
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../..] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec4081232233.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a] ==> lib [/sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a]
+    arg [-lz] ==> lib [z]
+    arg [/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so] ==> ignore
+    arg [/ccs/home/zgu/adioshub/adios_sith/lib/libadios.a] ==> lib [/ccs/home/zgu/adioshub/adios_sith/lib/libadios.a]
+    arg [-rpath] ==> ignore
+    arg [/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtfastmath.o] ==> ignore
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc/x86_64-redhat-linux/4.7.1]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib] ==> [/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib]
+  collapse library dir [/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib] ==> [/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../..] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64]
+  implicit libs: [/sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a;z;/ccs/home/zgu/adioshub/adios_sith/lib/libadios.a;gomp;pthread;c]
+  implicit dirs: [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc/x86_64-redhat-linux/4.7.1;/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc;/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64;/lib64;/usr/lib64;/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib;/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2291778478/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2291778478.dir/build.make CMakeFiles/cmTryCompileExec2291778478.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o
+/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx    -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -ftemplate-depth-60 -DADD_ -DINLINE_ALL=inline -DDISABLE_TIMER=1 -DUSE_REAL_STRUCT_FACTOR     -o CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2291778478
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2291778478.dir/link.txt --verbose=1
+/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx    -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -ftemplate-depth-60 -DADD_ -DINLINE_ALL=inline -DDISABLE_TIMER=1 -DUSE_REAL_STRUCT_FACTOR    -v CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2291778478 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64  
+Using built-in specs.
+COLLECT_GCC=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/bin/g++
+COLLECT_LTO_WRAPPER=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../gcc-4.7.1/configure --build=x86_64-redhat-linux --prefix=/ccs/compilers/gcc/rhel6-x86_64/4.7.1 --libdir=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-gmp-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-gmp-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpfr-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpfr-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpc-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpc-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64
+Thread model: posix
+gcc version 4.7.1 (GCC) 
+COMPILER_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/
+LIBRARY_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib/:/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../:/lib/:/usr/lib/
+Reading specs from /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-march=amdfam10' '-msse3' '-malign-double' '-fomit-frame-pointer' '-ffast-math' '-fopenmp' '-O3' '-D' 'restrict=__restrict__' '-finline-limit=1000' '-fstrict-aliasing' '-funroll-all-loops' '-Wno-deprecated' '-ftemplate-depth=60' '-D' 'ADD_' '-D' 'INLINE_ALL=inline' '-D' 'DISABLE_TIMER=1' '-D' 'USE_REAL_STRUCT_FACTOR' '-v' '-o' 'cmTryCompileExec2291778478' '-rdynamic' '-I' '/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/include' '-pthread' '-L/usr/lib64' '-L/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib' '-shared-libgcc' '-pthread'
+ /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2291778478 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtbegin.o -L/usr/lib64 -L/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1 -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib -L/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../.. CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -rpath /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 -lmpi_cxx -lmpi -lrdmacm -libverbs -lrt -lnsl -lutil -ltorque -ldl -lm -lnuma --export-dynamic -lrt -lnsl -lutil -lm -ldl -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtfastmath.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2291778478/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2291778478.dir/build.make CMakeFiles/cmTryCompileExec2291778478.dir/build]
+  ignore line: [gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp']
+  ignore line: [/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx    -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -ftemplate-depth-60 -DADD_ -DINLINE_ALL=inline -DDISABLE_TIMER=1 -DUSE_REAL_STRUCT_FACTOR     -o CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2291778478]
+  ignore line: [/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2291778478.dir/link.txt --verbose=1]
+  ignore line: [/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/bin/mpicxx    -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -ftemplate-depth-60 -DADD_ -DINLINE_ALL=inline -DDISABLE_TIMER=1 -DUSE_REAL_STRUCT_FACTOR    -v CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2291778478 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../gcc-4.7.1/configure --build=x86_64-redhat-linux --prefix=/ccs/compilers/gcc/rhel6-x86_64/4.7.1 --libdir=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-gmp-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-gmp-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpfr-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpfr-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 --with-mpc-include=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/include --with-mpc-lib=/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib/:/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib/:/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=amdfam10' '-msse3' '-malign-double' '-fomit-frame-pointer' '-ffast-math' '-fopenmp' '-O3' '-D' 'restrict=__restrict__' '-finline-limit=1000' '-fstrict-aliasing' '-funroll-all-loops' '-Wno-deprecated' '-ftemplate-depth=60' '-D' 'ADD_' '-D' 'INLINE_ALL=inline' '-D' 'DISABLE_TIMER=1' '-D' 'USE_REAL_STRUCT_FACTOR' '-v' '-o' 'cmTryCompileExec2291778478' '-rdynamic' '-I' '/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/include' '-pthread' '-L/usr/lib64' '-L/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib' '-shared-libgcc' '-pthread']
+  link line: [ /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2291778478 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtbegin.o -L/usr/lib64 -L/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1 -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib -L/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib -L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../.. CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -rpath /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 -lmpi_cxx -lmpi -lrdmacm -libverbs -lrt -lnsl -lutil -ltorque -ldl -lm -lnuma --export-dynamic -lrt -lnsl -lutil -lm -ldl -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtfastmath.o /autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../libexec/gcc/x86_64-redhat-linux/4.7.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2291778478] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib] ==> dir [/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib]
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1]
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc]
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib] ==> dir [/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib]
+    arg [-L/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib] ==> dir [/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib]
+    arg [-L/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../..] ==> dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec2291778478.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [/sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a] ==> lib [/sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a]
+    arg [-lz] ==> lib [z]
+    arg [/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so] ==> ignore
+    arg [/ccs/home/zgu/adioshub/adios_sith/lib/libadios.a] ==> lib [/ccs/home/zgu/adioshub/adios_sith/lib/libadios.a]
+    arg [-rpath] ==> ignore
+    arg [/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64] ==> ignore
+    arg [-lmpi_cxx] ==> lib [mpi_cxx]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lrdmacm] ==> lib [rdmacm]
+    arg [-libverbs] ==> lib [ibverbs]
+    arg [-lrt] ==> lib [rt]
+    arg [-lnsl] ==> lib [nsl]
+    arg [-lutil] ==> lib [util]
+    arg [-ltorque] ==> lib [torque]
+    arg [-ldl] ==> lib [dl]
+    arg [-lm] ==> lib [m]
+    arg [-lnuma] ==> lib [numa]
+    arg [--export-dynamic] ==> ignore
+    arg [-lrt] ==> lib [rt]
+    arg [-lnsl] ==> lib [nsl]
+    arg [-lutil] ==> lib [util]
+    arg [-lm] ==> lib [m]
+    arg [-ldl] ==> lib [dl]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtfastmath.o] ==> ignore
+    arg [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib] ==> [/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc/x86_64-redhat-linux/4.7.1]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../../../lib64] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib] ==> [/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib]
+  collapse library dir [/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib] ==> [/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib]
+  collapse library dir [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/../lib64/gcc/x86_64-redhat-linux/4.7.1/../../..] ==> [/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64]
+  implicit libs: [/sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a;z;/ccs/home/zgu/adioshub/adios_sith/lib/libadios.a;mpi_cxx;mpi;rdmacm;ibverbs;rt;nsl;util;torque;dl;m;numa;rt;nsl;util;m;dl;stdc++;m;gomp;pthread;c]
+  implicit dirs: [/usr/lib64;/sw/sith/ompi/1.6.5/rhel6_gnu4.7.1/lib;/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc/x86_64-redhat-linux/4.7.1;/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64/gcc;/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/lib64;/lib64;/sw/redhat6/hdf5-parallel/1.8.11/rhel6.4_gnu4.7.1/lib;/sw/sith/netcdf/4.1.3/rhel6_gnu4.7.1/lib]
+  implicit fwks: []
+
+
+Determining if the function sincos exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2419506187/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2419506187.dir/build.make CMakeFiles/cmTryCompileExec2419506187.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2419506187.dir/CheckFunctionExists.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=sincos   -o CMakeFiles/cmTryCompileExec2419506187.dir/CheckFunctionExists.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2419506187
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2419506187.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=sincos    CMakeFiles/cmTryCompileExec2419506187.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2419506187 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function round exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4264095741/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4264095741.dir/build.make CMakeFiles/cmTryCompileExec4264095741.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4264095741.dir/CheckFunctionExists.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=round   -o CMakeFiles/cmTryCompileExec4264095741.dir/CheckFunctionExists.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'round' [enabled by default]
+Linking C executable cmTryCompileExec4264095741
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4264095741.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=round    CMakeFiles/cmTryCompileExec4264095741.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4264095741 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2962029263/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2962029263.dir/build.make CMakeFiles/cmTryCompileExec2962029263.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2962029263.dir/CheckFunctionExists.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec2962029263.dir/CheckFunctionExists.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'floor' [enabled by default]
+Linking C executable cmTryCompileExec2962029263
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2962029263.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec2962029263.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2962029263 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function posix_memalign exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1408343317/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1408343317.dir/build.make CMakeFiles/cmTryCompileExec1408343317.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1408343317.dir/CheckFunctionExists.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=posix_memalign   -o CMakeFiles/cmTryCompileExec1408343317.dir/CheckFunctionExists.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1408343317
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1408343317.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=posix_memalign    CMakeFiles/cmTryCompileExec1408343317.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1408343317 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2143392055/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2143392055.dir/build.make CMakeFiles/cmTryCompileExec2143392055.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2143392055.dir/CheckFunctionExists.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTryCompileExec2143392055.dir/CheckFunctionExists.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'pow' [enabled by default]
+Linking C executable cmTryCompileExec2143392055
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2143392055.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTryCompileExec2143392055.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2143392055 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2400710081/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2400710081.dir/build.make CMakeFiles/cmTryCompileExec2400710081.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2400710081.dir/CheckFunctionExists.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTryCompileExec2400710081.dir/CheckFunctionExists.c.o   -c /autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'sqrt' [enabled by default]
+Linking C executable cmTryCompileExec2400710081
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2400710081.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99  -DCHECK_FUNCTION_EXISTS=sqrt    CMakeFiles/cmTryCompileExec2400710081.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2400710081 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4000374588/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4000374588.dir/build.make CMakeFiles/cmTryCompileExec4000374588.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4000374588.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec4000374588.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4000374588
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4000374588.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec4000374588.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4000374588 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3928716361/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3928716361.dir/build.make CMakeFiles/cmTryCompileExec3928716361.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3928716361.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec3928716361.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3928716361
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3928716361.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec3928716361.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3928716361 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3233528867/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3233528867.dir/build.make CMakeFiles/cmTryCompileExec3233528867.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3233528867.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec3233528867.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3233528867
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3233528867.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec3233528867.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3233528867 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pmmintrin.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3633607856/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3633607856.dir/build.make CMakeFiles/cmTryCompileExec3633607856.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3633607856.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec3633607856.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3633607856
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3633607856.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec3633607856.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3633607856 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file emmintrin.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3866907772/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3866907772.dir/build.make CMakeFiles/cmTryCompileExec3866907772.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3866907772.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec3866907772.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3866907772
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3866907772.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec3866907772.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3866907772 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec295478113/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec295478113.dir/build.make CMakeFiles/cmTryCompileExec295478113.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec295478113.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec295478113.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec295478113
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec295478113.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec295478113.dir/CheckIncludeFile.c.o  -o cmTryCompileExec295478113 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec444339749/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec444339749.dir/build.make CMakeFiles/cmTryCompileExec444339749.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec444339749.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec444339749.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec444339749
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec444339749.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec444339749.dir/CheckIncludeFile.c.o  -o cmTryCompileExec444339749 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec935384789/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec935384789.dir/build.make CMakeFiles/cmTryCompileExec935384789.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec935384789.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec935384789.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec935384789
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec935384789.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec935384789.dir/CheckIncludeFile.c.o  -o cmTryCompileExec935384789 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec314398610/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec314398610.dir/build.make CMakeFiles/cmTryCompileExec314398610.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec314398610.dir/CheckIncludeFile.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec314398610.dir/CheckIncludeFile.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec314398610
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec314398610.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec314398610.dir/CheckIncludeFile.c.o  -o cmTryCompileExec314398610 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3465590581/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3465590581.dir/build.make CMakeFiles/cmTryCompileExec3465590581.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3465590581.dir/CheckIncludeFiles.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec3465590581.dir/CheckIncludeFiles.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3465590581
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3465590581.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec3465590581.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3465590581 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1031728220/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1031728220.dir/build.make CMakeFiles/cmTryCompileExec1031728220.dir/build
+gmake[1]: Entering directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_progress_report /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1031728220.dir/CheckSymbolExists.c.o
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99     -o CMakeFiles/cmTryCompileExec1031728220.dir/CheckSymbolExists.c.o   -c /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1031728220
+/autofs/na4_sw/redhat6/cmake/2.8.11.2/rhel6.4_gnu4.4.7/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1031728220.dir/link.txt --verbose=1
+/autofs/na3_compilers/gcc/rhel6-x86_64/4.7.1/bin/gcc   -march=amdfam10 -msse3 -malign-double -fomit-frame-pointer -ffast-math -fopenmp -O3 -Drestrict=__restrict__ -finline-limit=1000 -fstrict-aliasing -funroll-all-loops -Wno-deprecated  -std=c99      CMakeFiles/cmTryCompileExec1031728220.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1031728220 -rdynamic /sw/redhat6/acml/5.3.0/gfortran64/lib/libacml.a -lz /ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64/libgfortran.so /ccs/home/zgu/adioshub/adios_sith/lib/libadios.a -Wl,-rpath,/ccs/compilers/gcc/rhel6-x86_64/4.7.1/lib64 
+gmake[1]: Leaving directory `/autofs/na4_proj/csc025/cynthia/qmc/src/CMakeFiles/CMakeTmp'
+
+File /ccs/home/zgu/proj/qmc/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

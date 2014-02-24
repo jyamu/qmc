@@ -1,0 +1,4 @@
+change local memory from stack to heap
+--This line, and those below, will be ignored--
+
+M    Estimators/TraceManager.h

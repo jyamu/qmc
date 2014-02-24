@@ -1,0 +1,7 @@
+add new example w/ adios
+--This line, and those below, will be ignored--
+
+A    gr4x4x1_adios
+AM   gr4x4x1_adios/C.BFD.xml
+AM   gr4x4x1_adios/qmc.in.xml
+AM   gr4x4x1_adios/qmc_adios.xml

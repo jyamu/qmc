@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/libadios_config.a  CMakeFiles/adios_config.dir/ADIOS/ADIOS_config.cpp.o
+/usr/bin/ranlib ../lib/libadios_config.a
